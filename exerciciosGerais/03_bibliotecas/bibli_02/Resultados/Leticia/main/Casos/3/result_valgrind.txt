@@ -1,0 +1,6 @@
+==7199== Memcheck, a memory error detector
+==7199== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==7199== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==7199== Command: Resultados/Leticia/main/prog Resultados/Leticia/main/Casos/3
+==7199== Parent PID: 7198
+==7199== 

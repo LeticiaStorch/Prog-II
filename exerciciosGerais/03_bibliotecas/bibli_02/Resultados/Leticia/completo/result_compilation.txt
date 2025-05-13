@@ -1,0 +1,35 @@
+matrix_utils.c: In function ‘matrix_read’:
+matrix_utils.c:9:13: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+    9 |             scanf("%d", &matrix[i][j]);
+      |             ^~~~~
+matrix_utils.c:2:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+    1 | #include "matrix_utils.h"
+  +++ |+#include <stdio.h>
+    2 | 
+matrix_utils.c:9:13: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+    9 |             scanf("%d", &matrix[i][j]);
+      |             ^~~~~
+matrix_utils.c:9:13: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+matrix_utils.c: In function ‘matrix_print’:
+matrix_utils.c:22:17: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   22 |                 printf("|%d", matrix[i][j]);
+      |                 ^~~~~~
+matrix_utils.c:22:17: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+matrix_utils.c:22:17: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+matrix_utils.c:22:17: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+matrix_utils.c:26:17: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   26 |                 printf(" %d", matrix[i][j]);
+      |                 ^~~~~~
+matrix_utils.c:26:17: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+matrix_utils.c:28:18: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   28 |             else printf(" %d|", matrix[i][j]);
+      |                  ^~~~~~
+matrix_utils.c:28:18: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+matrix_utils.c:30:9: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   30 |         printf("\n");
+      |         ^~~~~~
+matrix_utils.c:30:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+matrix_utils.c:32:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   32 |     printf("\n");
+      |     ^~~~~~
+matrix_utils.c:32:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’

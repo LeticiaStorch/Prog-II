@@ -1,0 +1,6 @@
+==7266== Memcheck, a memory error detector
+==7266== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==7266== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==7266== Command: Resultados/Leticia/completo/prog Resultados/Leticia/completo/Casos/1
+==7266== Parent PID: 7265
+==7266== 
